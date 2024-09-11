@@ -26,10 +26,14 @@ def main(params):
 
         # get all profiles
         data = soup.find_all('div', class_='Gx5Zad xpd EtOod pkphOe')[1:]
+        # f = open('data.html', 'w', encoding='utf8')
+        # f.write(str(data))
+        # f.close()
+        
         for element in data:
             # find data
             name = element.find('div', class_='BNeawe vvjwJb AP7Wnd').getText()
-            infos = element.find('div', class_='BNeawe vvjwJb AP7Wnd').getText()
+            infos = element.find('div', class_='BNeawe s3v9rd AP7Wnd').getText()
             link = 'https' + str(element.find('a', href=True)['href'].split('https', 1)[1].split('&', 1)[0])
             
             # add to list

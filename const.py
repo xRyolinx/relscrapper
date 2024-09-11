@@ -5,7 +5,7 @@ params = {
     
     # combien de profils cherchez-vous ?
     # (n'abusez pas sinon vous serez potentiellement bloqué, jamais sratli mais voila)
-    'nb': 23,
+    'nb': 10,
     
     # si vous voulez sauter des profils que vous avez deja
     # par ex vous avez chercher deja 23 f'un fichier, diro direct 24
