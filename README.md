@@ -7,7 +7,7 @@ Utilisation:
 Comment lancer ?
 - Installez python (ez)
 - Tappez sur le terminal ces commandes:
-    - **git clone https://github.com/xRyolinx/relscrapper** pour cloner le dossier;
+    - **git clone https://github.com/xRyolinx/relscrapper** (pour cloner le dossier)
     - **pip install pipenv** (wela pip3, kifkif normalement)
     - **pipenv shell**
     - **pip install -r requirements.txt**
