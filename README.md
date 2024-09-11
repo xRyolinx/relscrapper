@@ -11,7 +11,7 @@
     - **pip install pipenv** (wela pip3, kifkif normalement)
     - **pipenv shell**
     - **pip install -r requirements.txt**
-- PS: Pour les prochains lancement, il suffit seulement d'executer les **2 dernieres** commandes.
+- PS: Pour les prochains lancements, il suffit seulement d'executer les **2 dernieres** commandes.
 
 C bon ! Lancez doka le script avec la commande:  
 **python scrape.py**  
