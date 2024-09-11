@@ -5,13 +5,14 @@ import os.path
 
 def getFileName(params):
     filename = params['filename']
+    name = filename[:-5]
     
     stop = False
     i = 1
     while not stop:
         check = os.path.isfile(filename)
         if check:
-            filename = f'linkedin({i}).xlsx'
+            filename = f'{name}({i}).xlsx'
         else:
             stop = True
         i += 1
